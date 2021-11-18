@@ -1,0 +1,26 @@
+{
+  "name": "use-state-object",
+  "version": "1.0.0",
+  "description": "React hook for managing simple state objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FancyPantsBoy/use-state-object.git"
+  },
+  "keywords": [
+    "React",
+    "React-hooks",
+    "hooks",
+    "state",
+    "object"
+  ],
+  "author": "Ibrahim Maouhoubi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FancyPantsBoy/use-state-object/issues"
+  },
+  "homepage": "https://github.com/FancyPantsBoy/use-state-object#readme"
+}
