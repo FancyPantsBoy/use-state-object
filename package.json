@@ -1,8 +1,13 @@
 {
   "name": "use-state-object",
-  "version": "1.0.0",
-  "description": "React hook for managing simple state objects",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A simpler way to useState for objects",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +17,10 @@
   },
   "keywords": [
     "React",
-    "React-hooks",
+    "state management",
     "hooks",
     "state",
+    "useState",
     "object"
   ],
   "author": "Ibrahim Maouhoubi",
@@ -22,5 +28,25 @@
   "bugs": {
     "url": "https://github.com/FancyPantsBoy/use-state-object/issues"
   },
-  "homepage": "https://github.com/FancyPantsBoy/use-state-object#readme"
+  "homepage": "https://github.com/FancyPantsBoy/use-state-object#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.2",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "typescript": "^4.5.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.35",
+    "immer": "^9.0.6"
+  }
 }
