@@ -1,4 +1,4 @@
-# use-state-object
+# useStateObject
 
 Have you ever come across a react component that uses many useState's declarations?
 
